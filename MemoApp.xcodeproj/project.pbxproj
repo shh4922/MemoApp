@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		00A1A8AC2962A6AC00DEE1B5 /* MemoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1A8AB2962A6AC00DEE1B5 /* MemoAppApp.swift */; };
-		00A1A8AE2962A6AC00DEE1B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1A8AD2962A6AC00DEE1B5 /* ContentView.swift */; };
 		00A1A8B02962A6AE00DEE1B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00A1A8AF2962A6AE00DEE1B5 /* Assets.xcassets */; };
 		00A1A8B32962A6AE00DEE1B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00A1A8B22962A6AE00DEE1B5 /* Preview Assets.xcassets */; };
+		00A1A8BA2962A6E000DEE1B5 /* MainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A1A8B92962A6E000DEE1B5 /* MainListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		00A1A8A82962A6AC00DEE1B5 /* MemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00A1A8AB2962A6AC00DEE1B5 /* MemoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoAppApp.swift; sourceTree = "<group>"; };
-		00A1A8AD2962A6AC00DEE1B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		00A1A8AF2962A6AE00DEE1B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00A1A8B22962A6AE00DEE1B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		00A1A8B92962A6E000DEE1B5 /* MainListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +52,9 @@
 			isa = PBXGroup;
 			children = (
 				00A1A8AB2962A6AC00DEE1B5 /* MemoAppApp.swift */,
-				00A1A8AD2962A6AC00DEE1B5 /* ContentView.swift */,
 				00A1A8AF2962A6AE00DEE1B5 /* Assets.xcassets */,
 				00A1A8B12962A6AE00DEE1B5 /* Preview Content */,
+				00A1A8B92962A6E000DEE1B5 /* MainListView.swift */,
 			);
 			path = MemoApp;
 			sourceTree = "<group>";
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00A1A8AE2962A6AC00DEE1B5 /* ContentView.swift in Sources */,
+				00A1A8BA2962A6E000DEE1B5 /* MainListView.swift in Sources */,
 				00A1A8AC2962A6AC00DEE1B5 /* MemoAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
